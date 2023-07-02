@@ -1,0 +1,11 @@
+varA=triArea(3,2);
+varB=triArea(7,4);
+varC=triArea(10,10);
+
+
+
+function triArea(base,height){
+return base * height/2
+}
+
+
