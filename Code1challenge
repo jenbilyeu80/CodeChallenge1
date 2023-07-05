@@ -8,4 +8,14 @@ function triArea(base,height){
 return base * height/2
 }
 
+function FirstReverse(str) { 
 
+
+// code goes here  
+
+let FirstReverse = str.split("").map(word => str.split("").reverse().join());
+return FirstReverse;
+}
+
+// keep this function call here 
+console.log(FirstReverse(readline()));
